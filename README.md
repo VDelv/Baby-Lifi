@@ -10,4 +10,6 @@ The application has been developped on Android Studio. Concretly the mobile phon
 - Reconversion of the word from binary
 - Message directly put on the screen
 
+
+
 The application has been developped by DELVIGNE Victor & PONSART Chloé with the help of Mr. Bette & Mr. Van Laere.
