@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.victor.babyli_fi.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/Acceuil"
+        android:layout_width="4000dp"
+        android:layout_height="1000dp">
+
+        <TextView
+            android:layout_width="195dp"
+            android:layout_height="75dp"
+            android:textSize="40dp"
+            android:text="Baby Li-fi"
+            android:layout_alignBottom="@+id/imageView1" />
+
+
+        <Button
+            android:id="@+id/Reception"
+            android:layout_height="75dp"
+            android:layout_width="fill_parent"
+            android:textSize="45dp"
+            android:text="Reception"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/Emission"
+            android:layout_height="75dp"
+            android:textSize="45dp"
+            android:text="Emission"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/Reception"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="46dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:background="@drawable/logo_fpms"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/imageView1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RECEPTION"
+        android:layout_width="4000dp"
+        android:layout_height="1000dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="195dp"
+            android:layout_height="75dp"
+            android:textSize="40dp"
+            android:text="Baby Li-fi"
+            android:layout_alignBottom="@+id/imageView2"
+            android:id="@+id/textView1" />
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:background="@drawable/logo_fpms"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/imageView2" />
+
+        <Button
+            android:id="@+id/Start"
+            android:layout_height="65dp"
+            android:textSize="35dp"
+            android:text="Start"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="44dp" />
+
+        <Button
+            android:id="@+id/Update"
+            android:layout_height="65dp"
+            android:layout_width="fill_parent"
+            android:textSize="35dp"
+            android:text="Update"
+            android:layout_marginBottom="87dp"
+            android:layout_alignBottom="@+id/Start"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/textView2"
+            android:textSize="85dp"
+            android:layout_below="@+id/textView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp"
+            android:background="#166167"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/EMISSION"
+        android:layout_width="4000dp"
+        android:layout_height="1000dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="195dp"
+            android:layout_height="75dp"
+            android:textSize="40dp"
+            android:text="Baby Li-fi"
+            android:layout_alignBottom="@+id/imageView"
+            android:id="@+id/textView"
+            />
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:background="@drawable/logo_fpms"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/imageView" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/textView4"
+            android:textSize="85dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp"
+            android:background="#166167"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/Execute"
+            android:layout_height="70dp"
+            android:layout_width="fill_parent"
+            android:textSize="35dp"
+            android:text="Execute"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
