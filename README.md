@@ -1,6 +1,6 @@
 # Baby-Lifi
 
-During that project in the context of study in Polytechnical Faculty of Mons, we create an application who permits to send data from a Smartphone to another by the torch light of the phone. 
+During that project in the context of study in Engineering Faculty of University of Mons, we create an application who permits to send data from a Smartphone to another by the torch light of the phone. 
 
 The application has been developped on Android Studio. Concretly the mobile phone is able to send short message (like word). The works is done in several steps : 
 - Entry of the word in the Phone 1 
@@ -12,4 +12,4 @@ The application has been developped on Android Studio. Concretly the mobile phon
 
 
 
-The application has been developped by DELVIGNE Victor & PONSART Chloé with the help of Mr. Bette & Mr. Van Laere.
+The application has been developped by DELVIGNE Victor & PONSART Chloé with the help of Pr. Bette & Dr. Van Laere.
